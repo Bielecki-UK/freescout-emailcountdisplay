@@ -1,0 +1,18 @@
+{
+    "name": "Pending Email Count Display",
+    "alias": "emailcountdisplay",
+    "author": "Piotr Bielecki",
+    "authorUrl": "https://bielecki.uk",
+    "detailsUrl": "https://github.com/Bielecki-UK/freescout-emailcountdisplay",
+    "description": "Display Active and Pending email counts in folder Mine",
+    "keywords": ["counter", "folder", "inbox"],
+    "version": "1.0.0",
+    "active": 1,
+    "order": 1,
+    "providers": [
+        "Modules\\EmailCountDisplay\\Providers\\EmailCountDisplayServiceProvider"
+    ],
+    "latestVersionUrl": "https://raw.githubusercontent.com/Bielecki-UK/freescout-emailcountdisplay/refs/heads/main/module.json",
+    "latestVersionZipUrl": "https://github.com/Bielecki-UK/freescout-emailcountdisplay/archive/refs/heads/main.zip",
+    "img": "/modules/emailcountdisplay/ico.png"
+}

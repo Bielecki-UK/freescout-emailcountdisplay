@@ -1,0 +1,22 @@
+{
+    "name": "freescout/emailcountdisplay",
+    "description": "Pending Email Count Display module for FreeScout",
+    "authors": [
+        {
+            "name": "Piotr Bielecki",
+            "url": "https://bielecki.uk"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\EmailCountDisplay\\Providers\\EmailCountDisplayServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\EmailCountDisplay\\": ""
+        }
+    }
+}
